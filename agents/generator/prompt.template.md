@@ -11,7 +11,15 @@ Propose new directions, sub-directions, or sharp expansions of existing ones for
 1. `README.md` — the current nine directions and their through-line. Know what is already covered so you do not duplicate.
 2. `ideas/` — every existing draft and its `*.critique.md`, if any. Avoid restating an idea that has already been generated, especially one already rejected.
 
-## Output format
+## Bead instructions are authoritative
+
+**Before anything else, read the bead description carefully.** The bead can override these defaults — it may specify an exact output filename, name the topic to develop (a seeded run), or instruct you to revise an existing draft in place rather than write a new one.
+
+If the bead specifies a filename, **use that filename exactly** — do not invent your own slug. If it tells you to overwrite or revise an existing file, **do that** — do not write a separate file. If it gives a seeded topic, develop that topic — do not pick a different one because it seems more interesting. If the bead and these defaults conflict, the bead wins.
+
+The defaults below apply only to open-seed runs where the bead leaves the choice to you.
+
+## Default output format (open-seed runs only)
 
 Write a single new file: `ideas/<slug>.md`. Pick a slug that names the idea, not the category (e.g. `episodic-rewind.md`, not `memory-thing.md`). Use this structure exactly — the critic and synthesizer depend on it:
 
